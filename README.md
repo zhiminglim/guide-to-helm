@@ -2,6 +2,15 @@
 
 <br />
 
+This project contains helm chart templates from the folders accessible from the root directory.
+
+Just clone this repo, and within the folder of a choice, do a `helm install <name-of-your-chart> helm/` to see the application deployed in your kubernetes cluster.
+
+For summarized notes on how helm works, refer to the sections below.
+
+<br />
+
+
 ## Getting Started
 
 To test template rendering, but not actually installing anything, use the `dry-run` option:
